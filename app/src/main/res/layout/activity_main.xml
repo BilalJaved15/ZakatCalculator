@@ -233,7 +233,7 @@
             android:textColor="@color/green"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/stock_value" />
+            app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
         <TextView
             android:id="@+id/net_worth_value"
@@ -256,7 +256,7 @@
             android:textColor="@color/green"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/stock_value" />
+            app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
         <TextView
             android:id="@+id/payable_zakat_value"
@@ -268,6 +268,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/payable_zakat"
             app:layout_constraintTop_toBottomOf="@+id/payable_zakat" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="calculateZakat"
+            android:text="@string/calculate_zakat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stock_value" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -16,6 +16,7 @@
     <string name="stock_value">Value of stock</string>
     <string name="net_worth">TOTAL NET WORTH</string>
     <string name="payable_zakat">ZAKAT PAYABLE</string>
-    <string name="net_worth_value">Rs.</string>
-    <string name="payable_zakat_value">Rs.</string>
+    <string name="net_worth_value">Rs. 0</string>
+    <string name="payable_zakat_value">Rs. 0</string>
+    <string name="calculate_zakat">Calculate Zakat</string>
 </resources>
