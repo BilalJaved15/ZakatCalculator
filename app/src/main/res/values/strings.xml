@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string name="cash_in_hand">Cash in hand and in bank accounts</string>
+    <string name="cash_for_hajj">Cash deposited for some future purpose, e.g. Hajj</string>
+    <string name="cash_given_loans">Cash given out in loans</string>
+    <string name="cash_for_investment">Investments, shares, pensions funded by money in one’s possession</string>
+    <string name="liabilities">Liabilities</string>
+    <string name="cash">Cash</string>
+    <string name="liabilities_borrow">Borrowed money, goods bought on credit</string>
+    <string name="liabilities_wages">Wages due to employees</string>
+    <string name="liabilities_taxes">Taxes, Rent, utility bills due immediately</string>
+    <string name="gold_and_silver">Gold and Silver</string>
+    <string name="gold">Value of Gold that you possess</string>
+    <string name="silver">Value of Silver that you possess</string>
+    <string name="trade_goods">Trade Goods</string>
+    <string name="stock_value">Value of stock</string>
+    <string name="net_worth">TOTAL NET WORTH</string>
+    <string name="payable_zakat">ZAKAT PAYABLE</string>
+    <string name="net_worth_value">Rs.</string>
+    <string name="payable_zakat_value">Rs.</string>
+</resources>
